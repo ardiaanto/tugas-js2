@@ -1,0 +1,122 @@
+1. 
+- Math.sqrt(x) = untuk melakukan akar dari variabel x 	misalkan 
+
+	let x = 5;
+	console.log(Math.sqrt(x));
+
+	maka hasilnya adalah 
+	2.23606797749979
+
+- Concat = untuk menggabungkan 2 variable string
+
+	misalkan
+
+	let char = 'a';
+	let char2 = 'b';
+
+
+	let example = char.concat(char2);
+	
+	maka hasilnya adalah
+	ab
+
+- length = untuk melihat panjang sebuah string dihitung dari total hurufnya
+
+	misalkan
+
+	let char = 'akudandia';
+
+
+	let example = char.length;
+
+
+	maka hasilnya adalah
+	9
+
+- slice = untuk memotong bagian index sebuah array dari index berapa ke index berapa
+
+	misalkan
+	
+	let char = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+
+
+	let example = char.slice(0, 5);
+
+	maka hasilnya adalah
+	example = [ 'a', 'b', 'c', 'd', 'e' ]
+
+
+- sort = untuk melakukan sorting variable dalam suatu array
+
+	misalkan
+	
+	let numbers = ['100', '50', '200'];
+
+
+	let example = numbers.sort(function (a, b) {
+    		return a - b;
+	});
+
+	maka hasilnya adalah
+	numbers = [ '50', '100', '200' ]
+
+
+- push = untuk memasukkan sebuah variable kepada array
+
+	misalkan
+	
+	let numbers = [11, 12, 15];
+
+	numbers.push(20);
+
+	
+	maka hasilnya adalah
+	numbers = [ 11, 12, 15, 20 ]
+
+
+- pop = untuk menghilangan sebuah variable terakhir pada array
+
+	misalkan
+	
+	let numbers = [11, 12, 15];
+
+	numbers.pop();
+
+	maka hasilnya adalah
+	numbers = [ 11, 12 ]
+
+- join = untuk menghubungkan sebuah array menjadi sebuah string
+
+	misalkan
+
+	let char = ['a', 'ner', 'joy'];
+
+	let char2 = char.join('');
+
+	maka hasilnya adalah
+	char2 = anerjoy
+
+- reverse = untuk membalikkan sebuah array
+	misalkan
+
+	let char = ['a', 'ner', 'joy'];
+
+	let char2 = char.reverse();
+
+	maka hasilnya adalah
+	char2 = [ 'joy', 'ner', 'a' ]
+	
+
+- shift = untuk mengambil index 0 pada sebuah array ke suatu variable baru
+
+	misalkan	
+
+	let char = ['a', 'ner', 'joy'];
+
+	let char2 = char.shift();
+
+	maka hasilnya adalah 
+	char = [ 'ner', 'joy' ]
+	char2 = a
+
+	
